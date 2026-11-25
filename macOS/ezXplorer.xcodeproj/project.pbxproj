@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000002 /* ezXplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* ezXplorerApp.swift */; };
+		B00000000000000000000003 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* AppCommands.swift */; };
+		B00000000000000000000004 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* FileItem.swift */; };
+		B00000000000000000000005 /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* SortOption.swift */; };
+		B00000000000000000000006 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000006 /* AppTheme.swift */; };
+		B00000000000000000000007 /* DirectoryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* DirectoryTreeNode.swift */; };
+		B00000000000000000000008 /* FileSystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000008 /* FileSystemService.swift */; };
+		B00000000000000000000009 /* ShellCommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* ShellCommandRunner.swift */; };
+		B00000000000000000000010 /* KeyboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000010 /* KeyboardMonitor.swift */; };
+		B00000000000000000000011 /* PaneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000011 /* PaneViewModel.swift */; };
+		B00000000000000000000012 /* CommanderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000012 /* CommanderViewModel.swift */; };
+		B00000000000000000000013 /* BreadcrumbBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000013 /* BreadcrumbBarView.swift */; };
+		B00000000000000000000014 /* FilePaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000014 /* FilePaneView.swift */; };
+		B00000000000000000000015 /* SidebarTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000015 /* SidebarTreeView.swift */; };
+		B00000000000000000000016 /* PreviewInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000016 /* PreviewInspectorView.swift */; };
+		B00000000000000000000017 /* FunctionKeyBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000017 /* FunctionKeyBarView.swift */; };
+		B00000000000000000000018 /* CommandLineBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000018 /* CommandLineBarView.swift */; };
+		B00000000000000000000019 /* FileViewerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000019 /* FileViewerSheet.swift */; };
+		B00000000000000000000020 /* FileEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000020 /* FileEditorSheet.swift */; };
+		B00000000000000000000021 /* OperationSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000021 /* OperationSheets.swift */; };
+		B00000000000000000000022 /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000022 /* MainWindowView.swift */; };
+		B00000000000000000000023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000023 /* Assets.xcassets */; };
+		B00000000000000000000026 /* FileTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000026 /* FileTemplate.swift */; };
+		B00000000000000000000027 /* InlineRenameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000027 /* InlineRenameTextField.swift */; };
+		B00000000000000000000028 /* PaneToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000028 /* PaneToolbarView.swift */; };
+		B00000000000000000000029 /* PropertiesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000029 /* PropertiesSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000000000000000000001 /* ezXplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezXplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000000000000000000002 /* ezXplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezXplorerApp.swift; sourceTree = "<group>"; };
+		F00000000000000000000003 /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
+		F00000000000000000000004 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		F00000000000000000000005 /* SortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOption.swift; sourceTree = "<group>"; };
+		F00000000000000000000006 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		F00000000000000000000007 /* DirectoryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTreeNode.swift; sourceTree = "<group>"; };
+		F00000000000000000000008 /* FileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemService.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* ShellCommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellCommandRunner.swift; sourceTree = "<group>"; };
+		F00000000000000000000010 /* KeyboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMonitor.swift; sourceTree = "<group>"; };
+		F00000000000000000000011 /* PaneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneViewModel.swift; sourceTree = "<group>"; };
+		F00000000000000000000012 /* CommanderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanderViewModel.swift; sourceTree = "<group>"; };
+		F00000000000000000000013 /* BreadcrumbBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadcrumbBarView.swift; sourceTree = "<group>"; };
+		F00000000000000000000014 /* FilePaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePaneView.swift; sourceTree = "<group>"; };
+		F00000000000000000000015 /* SidebarTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTreeView.swift; sourceTree = "<group>"; };
+		F00000000000000000000016 /* PreviewInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewInspectorView.swift; sourceTree = "<group>"; };
+		F00000000000000000000017 /* FunctionKeyBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionKeyBarView.swift; sourceTree = "<group>"; };
+		F00000000000000000000018 /* CommandLineBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineBarView.swift; sourceTree = "<group>"; };
+		F00000000000000000000019 /* FileViewerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewerSheet.swift; sourceTree = "<group>"; };
+		F00000000000000000000020 /* FileEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileEditorSheet.swift; sourceTree = "<group>"; };
+		F00000000000000000000021 /* OperationSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationSheets.swift; sourceTree = "<group>"; };
+		F00000000000000000000022 /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		F00000000000000000000023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00000000000000000000024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00000000000000000000025 /* ezXplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ezXplorer.entitlements; sourceTree = "<group>"; };
+		F00000000000000000000026 /* FileTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTemplate.swift; sourceTree = "<group>"; };
+		F00000000000000000000027 /* InlineRenameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineRenameTextField.swift; sourceTree = "<group>"; };
+		F00000000000000000000028 /* PaneToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneToolbarView.swift; sourceTree = "<group>"; };
+		F00000000000000000000029 /* PropertiesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		P00000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000002 /* ezXplorer */,
+				G00000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00000000000000000000002 /* ezXplorer */ = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000004 /* App */,
+				G00000000000000000000005 /* Models */,
+				G00000000000000000000006 /* Services */,
+				G00000000000000000000007 /* ViewModels */,
+				G00000000000000000000008 /* Views */,
+				F00000000000000000000023 /* Assets.xcassets */,
+				F00000000000000000000024 /* Info.plist */,
+				F00000000000000000000025 /* ezXplorer.entitlements */,
+			);
+			path = ezXplorer;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000001 /* ezXplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000002 /* ezXplorerApp.swift */,
+				F00000000000000000000003 /* AppCommands.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000004 /* FileItem.swift */,
+				F00000000000000000000005 /* SortOption.swift */,
+				F00000000000000000000006 /* AppTheme.swift */,
+				F00000000000000000000007 /* DirectoryTreeNode.swift */,
+				F00000000000000000000026 /* FileTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000008 /* FileSystemService.swift */,
+				F00000000000000000000009 /* ShellCommandRunner.swift */,
+				F00000000000000000000010 /* KeyboardMonitor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000007 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000011 /* PaneViewModel.swift */,
+				F00000000000000000000012 /* CommanderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000013 /* BreadcrumbBarView.swift */,
+				F00000000000000000000028 /* PaneToolbarView.swift */,
+				F00000000000000000000027 /* InlineRenameTextField.swift */,
+				F00000000000000000000014 /* FilePaneView.swift */,
+				F00000000000000000000015 /* SidebarTreeView.swift */,
+				F00000000000000000000016 /* PreviewInspectorView.swift */,
+				F00000000000000000000017 /* FunctionKeyBarView.swift */,
+				F00000000000000000000018 /* CommandLineBarView.swift */,
+				F00000000000000000000019 /* FileViewerSheet.swift */,
+				F00000000000000000000020 /* FileEditorSheet.swift */,
+				F00000000000000000000021 /* OperationSheets.swift */,
+				F00000000000000000000029 /* PropertiesSheet.swift */,
+				F00000000000000000000022 /* MainWindowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T00000000000000000000001 /* ezXplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000002 /* Build configuration list for PBXNativeTarget "ezXplorer" */;
+			buildPhases = (
+				P00000000000000000000001 /* Sources */,
+				P00000000000000000000002 /* Frameworks */,
+				P00000000000000000000003 /* Resources */,
+				P00000000000000000000004 /* Create DMG Installer */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ezXplorer;
+			productName = ezXplorer;
+			productReference = F00000000000000000000001 /* ezXplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					T00000000000000000000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C00000000000000000000001 /* Build configuration list for PBXProject "ezXplorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00000000000000000000001;
+			productRefGroup = G00000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T00000000000000000000001 /* ezXplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		P00000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		P00000000000000000000004 /* Create DMG Installer */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create DMG Installer";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "/bin/zsh \"$PROJECT_DIR/Scripts/create_dmg.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P00000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000002 /* ezXplorerApp.swift in Sources */,
+				B00000000000000000000003 /* AppCommands.swift in Sources */,
+				B00000000000000000000004 /* FileItem.swift in Sources */,
+				B00000000000000000000005 /* SortOption.swift in Sources */,
+				B00000000000000000000006 /* AppTheme.swift in Sources */,
+				B00000000000000000000007 /* DirectoryTreeNode.swift in Sources */,
+				B00000000000000000000008 /* FileSystemService.swift in Sources */,
+				B00000000000000000000009 /* ShellCommandRunner.swift in Sources */,
+				B00000000000000000000010 /* KeyboardMonitor.swift in Sources */,
+				B00000000000000000000011 /* PaneViewModel.swift in Sources */,
+				B00000000000000000000012 /* CommanderViewModel.swift in Sources */,
+				B00000000000000000000013 /* BreadcrumbBarView.swift in Sources */,
+				B00000000000000000000014 /* FilePaneView.swift in Sources */,
+				B00000000000000000000015 /* SidebarTreeView.swift in Sources */,
+				B00000000000000000000016 /* PreviewInspectorView.swift in Sources */,
+				B00000000000000000000017 /* FunctionKeyBarView.swift in Sources */,
+				B00000000000000000000018 /* CommandLineBarView.swift in Sources */,
+				B00000000000000000000019 /* FileViewerSheet.swift in Sources */,
+				B00000000000000000000020 /* FileEditorSheet.swift in Sources */,
+				B00000000000000000000021 /* OperationSheets.swift in Sources */,
+				B00000000000000000000022 /* MainWindowView.swift in Sources */,
+				B00000000000000000000026 /* FileTemplate.swift in Sources */,
+				B00000000000000000000027 /* InlineRenameTextField.swift in Sources */,
+				B00000000000000000000028 /* PaneToolbarView.swift in Sources */,
+				B00000000000000000000029 /* PropertiesSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ezXplorer/ezXplorer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ezXplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqlthunder.ezXplorer;
+				PRODUCT_NAME = ezXplorer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ezXplorer/ezXplorer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ezXplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sqlthunder.ezXplorer;
+				PRODUCT_NAME = ezXplorer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00000000000000000000001 /* Build configuration list for PBXProject "ezXplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00000000000000000000001 /* Debug */,
+				D00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00000000000000000000002 /* Build configuration list for PBXNativeTarget "ezXplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00000000000000000000003 /* Debug */,
+				D00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
